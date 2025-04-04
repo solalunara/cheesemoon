@@ -6,10 +6,89 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Cheese Moon!</title>
     </head>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 2px gray;
+            font-size: 20px;
+            white-space: pre-line;
+            min-width: 100dvw;
+            max-width: 100dvw;
+            overflow: hidden;
+        }
+        html, body {
+            margin: 0;
+        }
+        html {
+            min-height: 100dvh;
+            background-image: -webkit-linear-gradient(top, #fce8e3 0%, #d8d647 100%);
+            background-image: -moz-linear-gradient(top, #fce8e3 0%, #d8d647 100%);
+            background-image: -ms-linear-gradient(top, #fce8e3 0%, #d8d647 100%);
+            background-image: -o-linear-gradient(top, #fce8e3 0%, #d8d647 100%);
+            background-image: linear-gradient(top, #fce8e3 0%, #d8d647 100%);
+            overflow: scroll;
+        }
+
+        #header {
+            min-width: 100dvw;
+            background-image: -webkit-linear-gradient(top, #ebb15b 0%, #ccc123 100%);
+            background-image: -moz-linear-gradient(top, #ebb15b 0%, #ccc123 100%);
+            background-image: -ms-linear-gradient(top, #ebb15b 0%, #ccc123 100%);
+            background-image: -o-linear-gradient(top, #ebb15b 0%, #ccc123 100%);
+            background-image: linear-gradient(top, #ebb15b 0%, #ccc123 100%);
+            color: white;
+        }
+
+        #content {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: justify;
+            text-justify: inter-word;
+            max-width: 50vw;
+            min-width: 50vw;
+        }
+
+        button, textarea {
+            text-decoration: none;
+        }
+        button {
+            text-align: center;
+            border: none;
+            background-color: #2c91df;
+            color: white;
+            border-radius: 20px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            padding: 5px;
+        }
+        input {
+            background-color: #3680b7;
+            color: black;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            resize: none;
+            text-align: left;
+        }
+        button:hover {
+            background-color: #ffffff;
+            color: black;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+
+        .footer {
+            position: fixed;
+            display: block;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
     <body>
         <div id="header">
             <h1>What if the moon were made of cheese?</h1>
-
         </div>
 
         <div id="content">
